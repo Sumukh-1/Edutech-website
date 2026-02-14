@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses - EduTech Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">EduTech Pro</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+    </ul>
+
+    <div class="nav-right">
+        <input type="text" id="search" placeholder="Search courses...">
+        <button id="darkModeBtn">🌙</button>
+    </div>
+</nav>
+
+<section class="section">
+    <h2 class="section-title">All Courses</h2>
+
+    <!-- FILTER TABS -->
+    <div class="tabs">
+        <button class="tab active" data-category="all">All</button>
+        <button class="tab" data-category="programming">Programming</button>
+        <button class="tab" data-category="design">Design</button>
+        <button class="tab" data-category="data">Data</button>
+        <button class="tab" data-category="business">Business</button>
+    </div>
+
+    <div class="course-grid">
+
+        <!-- PROGRAMMING -->
+        <div class="course-card" data-category="programming" data-title="javascript">
+            <h3>JavaScript Mastery</h3>
+            <p>Modern ES6+ and real projects.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+        <div class="course-card" data-category="programming" data-title="python">
+            <h3>Python Development</h3>
+            <p>Backend & automation projects.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+        <div class="course-card" data-category="programming" data-title="react">
+            <h3>React JS Bootcamp</h3>
+            <p>Build powerful frontend apps.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+        <!-- DESIGN -->
+        <div class="course-card" data-category="design" data-title="ui ux">
+            <h3>UI/UX Design</h3>
+            <p>User experience principles.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+        <div class="course-card" data-category="design" data-title="figma">
+            <h3>Figma Masterclass</h3>
+            <p>Design professional prototypes.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+        <!-- DATA -->
+        <div class="course-card" data-category="data" data-title="data science">
+            <h3>Data Science Basics</h3>
+            <p>Data analysis & visualization.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+        <div class="course-card" data-category="data" data-title="machine learning">
+            <h3>Machine Learning</h3>
+            <p>ML models & algorithms.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+        <!-- BUSINESS -->
+        <div class="course-card" data-category="business" data-title="digital marketing">
+            <h3>Digital Marketing</h3>
+            <p>SEO, Ads & growth strategies.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+        <div class="course-card" data-category="business" data-title="startup">
+            <h3>Startup Fundamentals</h3>
+            <p>Build and scale your startup.</p>
+            <button class="enroll">Enroll</button>
+            <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 EduTech Pro | Empowering Future Developers
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

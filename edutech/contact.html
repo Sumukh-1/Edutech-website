@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - EduTech Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">EduTech Pro</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+        <button id="darkModeBtn">🌙</button>
+    </div>
+</nav>
+
+<section class="section">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="course-card">
+        <form id="contactForm">
+
+            <label>Name:</label><br>
+            <input type="text" id="name" required style="width:100%; padding:8px; margin:10px 0;"><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="email" required style="width:100%; padding:8px; margin:10px 0;"><br>
+
+            <label>Message:</label><br>
+            <textarea id="message" rows="5" required style="width:100%; padding:8px; margin:10px 0;"></textarea><br>
+
+            <button type="submit" class="enroll">Send Message</button>
+
+        </form>
+    </div>
+</section>
+// CONTACT FORM
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        alert("Thank you! Your message has been sent successfully.");
+
+        contactForm.reset();
+    });
+}
+
+<footer>
+    © 2026 EduTech Pro | Empowering Future Developers
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+ <li><a href="contact.html">Contact</a></li>
+
+// CONTACT FORM
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        alert("Thank you! Your message has been sent successfully.");
+
+        contactForm.reset();
+    });
+}
